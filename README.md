@@ -16,3 +16,7 @@ Collaborative Filtering: Recommends movies that users with similar tastes have r
 Popularity-Based Recommendations: Recommends movies that have been rated highly by a large number of users overall.
 Hybrid Approach: Combines the strengths of content-based and collaborative filtering for more robust recommendations.
 Popularity Integration: Leverages popularity data to refine recommendations, potentially highlighting hidden gems.
+
+
+
+####Rest of the files are uploaded on the link below
