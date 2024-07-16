@@ -18,13 +18,13 @@ class Movierecommender(BaseModel):
     moviename: str
 
 
-@app.get('/')
+@app.get('/',status_code=status.HTTP_200_OK)
 def popular():
     specific_column_data = popular_df['title']
     return{'popular_movie': specific_column_data.to_list()}
 
 
-@app.post('/recommend')
+@app.post('/recommend',status_code=status.HTTP_200_OK)
 def recommend_movie(data:Movierecommender):
     data=data.dict()
     movie_name=data['moviename']
